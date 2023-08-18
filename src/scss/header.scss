@@ -28,6 +28,9 @@
 .menu-item {
   margin-left: 10px;
   color: $black;
+  &:hover {
+    color: $beige;
+  }
 }
 
 .search-icon {
@@ -61,7 +64,7 @@
 }
 
 .dropdown-item {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .btn-secondary {
@@ -85,4 +88,8 @@
   background-color: transparent;
   box-shadow: none;
   color: $black;
+}
+
+.dropdown-item:active {
+  background-color: $beige;
 }

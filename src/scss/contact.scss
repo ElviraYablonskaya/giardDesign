@@ -1,0 +1,49 @@
+.contact-container {
+  padding: 120px 110px;
+  gap: 64px;
+  background-color: $green;
+  margin: 60px 100px;
+}
+
+.title-contact {
+  color: $grey;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.title-contact-text {
+  color: $grey;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.information {
+  color: $grey;
+}
+
+.infromation-realization {
+  font-family: Inter;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.btn-instagram {
+  color: $green;
+  align-items: center;
+  border-radius: 200px;
+  background: $grey;
+  padding: 10px 24px 12px 24px;
+  cursor: pointer;
+  border: 1px solid;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $grey;
+    color: $grey;
+  }
+}

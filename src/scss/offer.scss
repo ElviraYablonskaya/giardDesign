@@ -99,3 +99,13 @@
 .button-text {
   margin-right: 10px;
 }
+
+.card.active {
+  background-color: $beige;
+  border: none;
+  box-shadow: -3px 2px 52px -2px rgba(36, 61, 45, 1);
+}
+
+.card {
+  scroll-behavior: smooth;
+}
