@@ -43,3 +43,46 @@
 .search-container.active .search-input {
   display: inline-block;
 }
+
+.menu-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.menu-item.show .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  margin-bottom:10px;
+}
+
+.btn-secondary {
+  border: none;
+  background: none;
+  color: $black;
+  &:hover {
+    border: none;
+    background: none;
+    color: $beige;
+  }
+}
+
+.btn.show {
+  background-color: transparent;
+  box-shadow: none;
+  color: $black;
+}
+
+.btn:first-child:active {
+  background-color: transparent;
+  box-shadow: none;
+  color: $black;
+}

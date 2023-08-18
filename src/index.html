@@ -18,7 +18,23 @@
           <span class="header-title">giard</span><span>design</span>
         </div>
         <div class="header-menu d-flex align-items-center">
-          <a href="#" class="menu-item text-decoration-none">Oferta</a>
+          <div class="dropdown">
+            <a
+              href="#"
+              class="btn btn-secondary dropdown-toggle"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Oferta
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Projekty</a></li>
+              <li><a class="dropdown-item" href="#">Wizualizacje</a></li>
+              <li><a class="dropdown-item" href="#">Realizacje</a></li>
+            </ul>
+          </div>
           <a href="#" class="menu-item text-decoration-none">O firmie</a>
           <a href="#" class="menu-item text-decoration-none">Realizacje</a>
           <a href="#" class="menu-item text-decoration-none">Kontakt</a>
@@ -35,7 +51,7 @@
         <h2 class="title">Nowoczesna aranżacja Twojego ogrodu</h2>
         <p class="text">
           Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka
-          realizacji. Oferujemy kompleksowy zakres usługz indywidualnym
+          realizacji. Oferujemy kompleksowy zakres usług z indywidualnym
           podejściem do każdego projektu.
         </p>
         <button class="button-contact">Skontaktuj się z nami</button>
@@ -130,6 +146,139 @@
         </div>
       </div>
     </section>
+
+    <section
+      class="section-firm d-flex justify-content-between align-items-center"
+    >
+      <div>
+        <img class="image-firm" src="./img/photo4.png" alt="Icon" />
+      </div>
+      <div class="container-firm">
+        <p class="firm">O firmie</p>
+        <h2 class="title-firm d-flex flex-column">
+          Tworzymy z <span class="title-firm-text">pasją</span>
+        </h2>
+        <p class="firm-paragraph">
+          Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą
+          wykwalifikowani projektanci oraz architekci, których zadaniem jest
+          rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja
+          to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria
+          i elegancka prostota. Tworzymy ogrody małoobsługowe, dostosowane do
+          współczesnego trybu życia.
+        </p>
+        <button class="button-firm">
+          <span class="me-2">Poznaj nas bliżej</span
+          ><i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="section-realization grid" data-macy="true">
+      <div class="container-realization d-flex flex-column">
+        <p class="realization">Realizacje</p>
+        <h2 class="title-realization">
+          Nasze <span class="title-realization-text">projekty</span>
+        </h2>
+      </div>
+      <div class="grid-container">
+        <div class="grid">
+          <div class="d-flex flex-row gap-4">
+            <div class="grid-item">
+              <a href="./img/project-1.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-1.png" alt="Project 1" />
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="./img/project-2.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-2.png" alt="Project 2" />
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="./img/project-3.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-3.png" alt="Project 3" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="grid-row d-flex flex-row gap-4">
+            <div class="grid-item">
+              <a href="./img/project-4.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-4.png" alt="Project 4" />
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item" style="margin-top: -275px">
+              <a href="./img/project-5.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-5.png" alt="Project 5" />
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item" style="margin-top: -155px">
+              <a href="./img/project-6.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-6.png" alt="Project 6" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid-row d-flex flex-row gap-4">
+            <div class="grid-item">
+              <a href="./img/project-7.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-7.png" alt="Project 7" />
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item" style="margin-top: -275px">
+              <a href="./img/project-8.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-8.png" alt="Project 8" />
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="./img/project-9.png" data-lightbox="gallery">
+                <div class="image-container">
+                  <img src="./img/project-9.png" alt="Project 9" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button id="loadMoreButton">
+            <span class="button-more">Rozwiń</span
+            ><i class="fa-solid fa-arrow-right fa-rotate-90"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

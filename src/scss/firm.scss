@@ -1,0 +1,58 @@
+.section-firm {
+  width: 100%;
+  background-color: $green;
+}
+
+.title-firm {
+  color: $grey;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  letter-spacing: -1.44px;
+  margin-bottom: 40px;
+}
+
+.firm-paragraph {
+  color: $grey;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  margin-bottom: 72px;
+}
+
+.image-firm {
+  max-width: 100%;
+  height: auto;
+}
+
+.firm {
+  color: $grey;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.title-firm-text {
+  color: $grey;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.container-firm {
+  width: 50%;
+  padding: 20px;
+}
+
+.button-firm {
+  border-radius: 200px;
+  cursor: pointer;
+  color: $grey;
+  background: transparent;
+  border: 1px solid $grey;
+  padding: 12px 22px 14px 22px;
+  align-items: center;
+  &:hover {
+    color: $black;
+  }
+}
