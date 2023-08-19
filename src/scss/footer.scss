@@ -1,0 +1,82 @@
+.footer {
+  background-color: $black;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-total {
+  font-size: 24px;
+  color: $white;
+}
+
+.section-footer {
+  padding-top: 80px;
+  padding-bottom: 95px;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    width: 73%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: $grey;
+  }
+}
+
+.footer-information {
+  gap: 24px;
+}
+
+.footer-text {
+  color: $grey;
+}
+
+.footer-contact {
+  margin-top: 32px;
+  padding-bottom: 120px;
+}
+
+.footer-email {
+  color: $white;
+  gap: 48px;
+}
+
+.footer-social {
+  gap: 24px;
+}
+
+.button-footer {
+  padding: 12px 24px 14px 24px;
+  border-radius: 200px;
+  background: $green;
+  border: solid $green;
+  color: $white;
+  cursor: pointer;
+  &:hover {
+    background-color: #528563;
+    border: solid #528563;
+  }
+}
+
+.footer-item {
+  color: $grey;
+  &:hover {
+    color: $beige;
+  }
+}
+
+.logo {
+  padding-bottom: 80px;
+}
+
+.logo-rules {
+  color: $grey;
+  margin-right: 250px;
+}
+
+.logo-imformation {
+  color: $grey;
+  gap: 16px;
+}
