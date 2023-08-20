@@ -47,3 +47,28 @@
     color: $grey;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .title-contact {
+    font-size: 40px;
+  }
+  .title-contact-text {
+    font-size: 40px;
+  }
+  .btn-instagram {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+}

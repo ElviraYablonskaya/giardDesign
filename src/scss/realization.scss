@@ -99,3 +99,14 @@
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .container-realization {
+    margin-left: 10px;
+  }
+  #loadMoreButton {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+}

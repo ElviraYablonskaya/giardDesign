@@ -27,6 +27,7 @@
   font-weight: 500;
   line-height: 70px;
 }
+
 .button-contact {
   padding: 12px 24px 14px 24px;
   border-radius: 200px;
@@ -100,4 +101,28 @@
   pointer-events: none;
   opacity: 0.5;
   cursor: default;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+  .slider-arrows {
+    padding: 24px 42px;
+    top: 90%;
+  }
+  .button-contact {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .button-realization {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+  .text {
+    margin-bottom: 50px;
+  }
 }

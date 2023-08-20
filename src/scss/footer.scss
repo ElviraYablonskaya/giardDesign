@@ -80,3 +80,32 @@
   color: $grey;
   gap: 16px;
 }
+
+@media (max-width: 768px) {
+  .section-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logo-rules {
+    margin-right: 0;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-information {
+    margin: 10px;
+  }
+  .button-footer {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+}

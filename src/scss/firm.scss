@@ -56,3 +56,24 @@
     color: $black;
   }
 }
+
+@media (max-width: 768px) {
+  .title-firm {
+    font-size: 30px;
+  }
+  .title-firm-text {
+    font-size: 30px;
+  }
+  .firm-paragraph {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .firm {
+    font-size: 12px;
+  }
+  .button-firm {
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+}

@@ -109,3 +109,32 @@
 .card {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+  .card {
+    max-width: 378px;
+    background-color: white;
+    padding: 14px 14px;
+    border-radius: 28px;
+  }
+  .title-project {
+    color: $black;
+    font-size: 20px;
+  }
+  .text-paragraph {
+    font-size: 14px;
+  }
+  .button-offer {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .offer {
+    margin-top: 50px;
+  }
+  .section-offer {
+    padding-bottom: 80px;
+  }
+}
